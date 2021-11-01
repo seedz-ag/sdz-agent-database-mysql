@@ -21,7 +21,7 @@ export default class Connector implements ConnectorInterface {
             user: this.config.username,
             password: this.config.password,
             host: this.config.host,
-            database: this.config.database,
+            database: this.config.schema,
             port: this.config.port,
           }
         );
