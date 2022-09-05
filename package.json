@@ -4,6 +4,7 @@
   "main": "./dist/index.js",
   "license": "APACHE",
   "types": "dist/index.d.ts",
+  "private": true,
   "scripts": {
     "build": "tsc --declaration",
     "prepare": "husky install"
@@ -15,7 +16,11 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^16.6.1",
-    "husky": "7.0.4"
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "husky": "7.0.4",
+    "semantic-release": "^19.0.5"
   }
 }
