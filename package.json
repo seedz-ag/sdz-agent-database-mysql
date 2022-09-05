@@ -16,6 +16,6 @@
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "@types/node": "^16.6.1",
-    "husky": "^8.0.0"
+    "husky": "7.0.4"
   }
 }
